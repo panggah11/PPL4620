@@ -1,4 +1,4 @@
-# PPL4620
+#PPL Kelompok 3
 
 Proyek Perangkat Lunak Sistem Cerdas PPL4620 Kelompok 3
 Aplikasi Pemetaan Google Maps dengan Sistem Geografi Jalur Fiber Optic , Komunitas Game Board 
