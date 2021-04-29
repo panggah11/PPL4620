@@ -1,6 +1,9 @@
 # PPL4620
 
-PPL Kelompok 3 Aplikasi Pemetaan Google Maps dengan Sistem Geografi Jalur Fiber Optic ,Komunitas Game Board 
+PPL Kelompok 3
+
+
+" Aplikasi Pemetaan Google Maps dengan Sistem Geografi Jalur Fiber Optic ,Komunitas Game Board "
 Disusun Oleh :
 1.	Panggah Kriesna Mukti (A11.2018.11467) -> Project Leader & Database Designer	
 2.	Maylinda Putri Ardiani ( A11.2018.11480) -> Back-End Programer 
