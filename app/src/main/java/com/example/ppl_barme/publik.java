@@ -25,4 +25,18 @@ public class publik extends AppCompatActivity {
         Intent intent = new Intent(publik.this, home.class);
         startActivity(intent);
     }
+
+    public void gmbsession(View view) {
+        Intent intent = new Intent(publik.this, session.class);
+        startActivity(intent);
+    }
+
+    public void gmbpemain(View view) {
+        Intent intent = new Intent(publik.this, pemain.class);
+        startActivity(intent);
+    }
+    public void gmbPlacee(View view) {
+        Intent intent = new Intent(publik.this, Maps.class);
+        startActivity(intent);
+    }
 }
