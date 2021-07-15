@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E1DEDE"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imgHost"
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    app:srcCompat="@drawable/user_1_" />
+
+                <TextView
+                    android:id="@+id/TVhost1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HOST"
+                    android:layout_marginLeft="130dp"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TVhost2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/des1"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:background="#A5A4A4"/>
+
+                <Button
+                    android:id="@+id/btnhost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Pilih"
+                    android:onClick="clickhost"/>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E1DEDE"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    app:srcCompat="@drawable/group" />
+
+                <TextView
+                    android:id="@+id/TVPublic1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Public"
+                    android:layout_marginLeft="130dp"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TVPublic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/des2"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:background="#A5A4A4"/>
+
+                <Button
+                    android:id="@+id/btnPublic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Pilih"
+                    android:onClick="clickpublic"/>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E1DEDE"
+                android:padding="10dp">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="119dp"
+                    android:layout_height="119dp"
+                    app:srcCompat="@drawable/history" />
+
+                <TextView
+                    android:id="@+id/TVHistory1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="History"
+                    android:layout_marginLeft="130dp"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/TVHistory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/des3"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="20dp"
+                    android:textColor="@color/black"
+                    android:background="#A5A4A4"/>
+
+                <Button
+                    android:id="@+id/btnHistory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Pilih"
+                    android:onClick="clickhistory"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgHPengaturan"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:onClick="clickpengaturan"
+
+                app:srcCompat="@drawable/png_clipart_computer_icons_installation_icon_setting_cdr_white" />
+
+            <ImageView
+                android:id="@+id/imgHLogout"
+                android:layout_width="30dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="350dp"
+                app:srcCompat="@drawable/logout"
+                android:onClick="clicklogout"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

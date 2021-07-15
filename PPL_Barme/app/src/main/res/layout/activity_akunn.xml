@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akunn"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Akun"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/txt_akun1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:text="Email" />
+    <EditText
+        android:id="@+id/edt_akun1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B6B6B6"
+        android:hint="Masukan Email"/>
+    <TextView
+        android:id="@+id/txt_akun2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:text="Username" />
+    <EditText
+        android:id="@+id/edt_akun2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B6B6B6"
+        android:hint="Masukan Username"/>
+    <TextView
+        android:id="@+id/txt_akun3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/purple_500"
+        android:text="Password" />
+    <EditText
+        android:id="@+id/edt_akun3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B6B6B6"
+        android:hint="Masukan Password"/>
+
+    <Button
+        android:id="@+id/btnakun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="save"
+        android:text="Save" />
+
+
+</LinearLayout>
