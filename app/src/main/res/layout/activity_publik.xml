@@ -31,7 +31,8 @@
                 android:id="@+id/imgplace"
                 android:layout_width="70dp"
                 android:layout_height="60dp"
-                app:srcCompat="@drawable/place" />
+                app:srcCompat="@drawable/place" 
+                android:onClick="gmbPlacee"/>
             <TextView
                 android:id="@+id/txt_tempat"
                 android:layout_width="wrap_content"
@@ -47,6 +48,7 @@
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="90dp"
+                android:onClick="gmbpemain"
                 app:srcCompat="@drawable/user_1_" />
             <TextView
                 android:id="@+id/txt_people"
@@ -64,6 +66,7 @@
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:layout_marginLeft="180dp"
+                android:onClick="gmbsession"
                 app:srcCompat="@drawable/laptop" />
 
             <TextView
