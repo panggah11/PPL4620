@@ -42,7 +42,7 @@ public class signin extends AppCompatActivity {
                     Intent moveHalamanUtama = new Intent(signin.this, home.class);
                     startActivity(moveHalamanUtama);
                 }else{
-                    Toast.makeText(signin.this, "Username dan Password SALAH !!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(signin.this, "Username atau Password SALAH !!!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
