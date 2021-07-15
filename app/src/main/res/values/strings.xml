@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Barme</string>
+    <string name="user">Username</string>
+    <string name="emaill">Email</string>
+    <string name="pass">Password</string>
+    <string name="des1">Fitur yang dapat digunakan untuk membuat jadwal mabar , dengan memilih tempat , game , pemain dan sesi</string>
+    <string name="des2">Fitur yang dapat memilih jadwal yang sudah tersedia pada pilihan jadwal yang dapat dipilih sesuai dengan pilihan</string>
+    <string name="des3">Fitur yang dapat mengkases tampilan history dan unduhan dari semua jadwal mabar yang kamu pilih selama satu bulan </string>
+    <string name="title_activity_pengaturan">pengaturan</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>
