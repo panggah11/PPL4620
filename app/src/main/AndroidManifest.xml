@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PPL_Barme">
-        <activity android:name=".akunn"></activity>
+        <activity android:name=".Maps"></activity>
+        <activity android:name=".host_pemain" />
+        <activity android:name=".host_session" />
+        <activity android:name=".pemain" />
+        <activity android:name=".session" />
+        <activity android:name=".akunn" />
         <activity android:name=".pengaturan" />
         <activity android:name=".history" />
         <activity android:name=".publik" />
