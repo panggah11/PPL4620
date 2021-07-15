@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class host extends AppCompatActivity {
@@ -28,5 +29,20 @@ public class host extends AppCompatActivity {
 
     public void pilih(View view) {
         Toast.makeText(host.this, "pilih", Toast.LENGTH_LONG).show();
+    }
+
+    public void Hpemain(View view) {
+        Intent intent = new Intent(host.this, host_pemain.class);
+        startActivity(intent);
+    }
+
+    public void Hsession(View view) {
+        Intent intent = new Intent(host.this, host_session.class);
+        startActivity(intent);
+    }
+
+    public void HMaps(View view) {
+        Intent intent = new Intent(host.this, Maps.class);
+        startActivity(intent);
     }
 }
