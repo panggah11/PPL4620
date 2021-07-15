@@ -23,8 +23,39 @@
         android:layout_height="400dp"
         android:padding="30dp"
         android:orientation="vertical"
-        android:background="#E1DEDE">
+        android:background="#020202">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="#FFFDFD">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="WIN"/>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="180dp"
+                android:background="#FFFDFD">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="LOSE"/>
+            </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
     <RelativeLayout
         android:layout_width="match_parent"
